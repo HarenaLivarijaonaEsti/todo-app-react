@@ -95,7 +95,7 @@ function finishSelectedTodos() {
             <input
               type="text"
               className="input w-full"
-              placeholder="Ajouter une tâche"
+              placeholder="Tâche"
               value={input}
               onChange={(e) => setInput(e.target.value)}
             />
