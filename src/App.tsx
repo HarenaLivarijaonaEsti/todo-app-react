@@ -90,7 +90,7 @@ function finishSelectedTodos() {
   return (
     <>
       <div className="flex justify-center">
-        <div className="w-2/3 flex-col gap-4 my-15 bg-base-300 p-5 rounded-2xl">
+        <div className="w-full md:w-2/3 mx-2 sm:mx-4 md:mx-auto flex flex-col gap-4 my-10 md:my-15 min-h-[90vh] bg-base-300 p-3 md:p-5 rounded-2xl">
           <div className="flex gap-4">
             <input
               type="text"
